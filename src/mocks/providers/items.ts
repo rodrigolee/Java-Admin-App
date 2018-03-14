@@ -7,48 +7,56 @@ export class Items {
   items: Item[] = [];
 
   defaultItem: any = {
-    "name": "Burt Bear",
-    "profilePic": "assets/img/speakers/bear.jpg",
-    "about": "Burt is a Bear.",
+    "name": "Erykah Badu",
+    "profilePic": "assets/img/badu-live.png",
+    "about": "Erykah Badu",
+    "quantity": 2342,
   };
 
 
   constructor() {
     let items = [
       {
-        "name": "Burt Bear",
-        "profilePic": "assets/img/speakers/bear.jpg",
-        "about": "Burt is a Bear."
+        "name": "Erykah Badu",
+        "profilePic": "assets/img/badu-live.png",
+        "about": "Erykah Badu",
+        "quantity" : 2342, 
       },
       {
-        "name": "Charlie Cheetah",
-        "profilePic": "assets/img/speakers/cheetah.jpg",
-        "about": "Charlie is a Cheetah."
+        "name": "Bjork",
+        "profilePic": "assets/img/bjork-live.jpg",
+        "about": "Charlie is a Cheetah.",
+        "quantity" : 1000, 
       },
       {
         "name": "Donald Duck",
         "profilePic": "assets/img/speakers/duck.jpg",
-        "about": "Donald is a Duck."
+        "about": "Donald is a Duck.",
+        "quantity" : 121, 
       },
       {
         "name": "Eva Eagle",
         "profilePic": "assets/img/speakers/eagle.jpg",
-        "about": "Eva is an Eagle."
+        "about": "Eva is an Eagle.",
+        "quantity" : 323, 
       },
       {
         "name": "Ellie Elephant",
         "profilePic": "assets/img/speakers/elephant.jpg",
-        "about": "Ellie is an Elephant."
+        "about": "Ellie is an Elephant.",
+        "quantity" : 23, 
       },
       {
         "name": "Molly Mouse",
         "profilePic": "assets/img/speakers/mouse.jpg",
-        "about": "Molly is a Mouse."
+        "about": "Molly is a Mouse.",
+        "quantity" : 0, 
       },
       {
         "name": "Paul Puppy",
         "profilePic": "assets/img/speakers/puppy.jpg",
-        "about": "Paul is a Puppy."
+        "about": "Paul is a Puppy.",
+        "quantity" : 2121, 
       }
     ];
 
